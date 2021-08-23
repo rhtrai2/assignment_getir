@@ -70,7 +70,7 @@ const get = async (req, res) => {
         if (err) {
             res.status(500).json({
                     "code": -1,
-                    "msg": "Unexptected error!",
+                    "msg": "Unexptected error! Please try after some time!",
             })
         }
     }  
